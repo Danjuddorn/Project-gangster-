@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult AddContact()
+        {
+            ViewBag.Message = "Adding contact page.";
+
+            return View();
+        }
     }
 }
