@@ -1,8 +1,53 @@
 ﻿@{
     ViewBag.Title = "AddContact";
 }
-
-<br>
-<div class="col-md-10">
-    
+<div class="col-md-12">
+    <legend>Contactpersoon toevoegen</legend>
+    <form class="form-horizontal">
+<fieldset>
+<div class="form-group">
+<label for="inputVoornaam" class="col-lg-2 control-label">Voornaam</label>
+<div class="col-lg-10">
+<input type="text" class="form-control" id="inputVoornaam" placeholder="Voornaam">
 </div>
+</div>
+<div class="form-group">
+<label for="inputAchternaam" class="col-lg-2 control-label">Achternaam</label>
+<div class="col-lg-10">
+<input type="text" class="form-control" id="inputAchternaam" placeholder="Achternaam">
+</div>
+</div>
+<div class="form-group">
+<label for="inputTelefoon" class="col-lg-2 control-label">Telefoon</label>
+<div class="col-lg-10">
+<input type="number" class="form-control" id="inputTelefoon" placeholder="Telefoon">
+</div>
+</div>
+<div class="form-group">
+<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+<div class="col-lg-10">
+<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+</div>
+</div>
+
+<div class="form-group">
+<label for="select" class="col-lg-2 control-label">Bedrijf</label>
+<div class="col-lg-10">
+<select class="form-control" id="select">
+<option>Mercedes</option>
+<option>Pearle</option>
+<option>KPN</option>
+<option>Noordhoff</option>
+<option>Achmea</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<div class="col-lg-10 col-lg-offset-2">
+<button class="btn btn-default">Cancel</button>
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</div>
+</fieldset>
+ </form>
+</div> 
