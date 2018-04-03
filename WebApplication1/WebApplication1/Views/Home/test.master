@@ -1,0 +1,4 @@
+﻿@Code
+Dim db = Database.Open("SmallBakery") 
+Dim query = "SELECT * FROM Product" 
+End Code

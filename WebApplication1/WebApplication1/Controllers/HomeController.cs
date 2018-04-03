@@ -33,5 +33,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Enquete()
+        {
+            ViewBag.Message = "Enquete.";
+
+            return View();
+        }
     }
 }
